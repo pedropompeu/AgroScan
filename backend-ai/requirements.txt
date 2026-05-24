@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+pydantic
+# Inferência de imagem com modelo PlantVillage (HuggingFace)
+transformers
+torch
+torchvision
+Pillow
+numpy

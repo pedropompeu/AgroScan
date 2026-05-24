@@ -1,0 +1,26 @@
+# Python
+backend-ai/venv/
+backend-ai/__pycache__/
+*.pyc
+
+# PHP / Laravel
+backend-core/vendor/
+backend-core/node_modules/
+backend-core/storage/logs/*
+backend-core/storage/app/private/*
+backend-core/bootstrap/cache/*.php
+backend-core/.env
+backend-core/database/database.sqlite
+
+# Node / Dashboard
+dashboard/node_modules/
+dashboard/dist/
+
+# Node / Mobile
+mobile-app/node_modules/
+mobile-app/android/
+mobile-app/ios/
+
+# Sistema
+.DS_Store
+*.log
