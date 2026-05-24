@@ -48,7 +48,7 @@ services:
       dockerfile: Dockerfile
     container_name: agroscan_dashboard
     ports:
-      - "3000:80"
+      - "4000:80"
     depends_on:
       - app
     environment:

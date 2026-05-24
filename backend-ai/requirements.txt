@@ -2,9 +2,11 @@ fastapi
 uvicorn
 requests
 pydantic
-# Inferência de imagem com modelo PlantVillage (HuggingFace)
+python-multipart
+# Torch CPU-only: menor que a versão completa (sem CUDA)
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.3.1+cpu
+torchvision==0.18.1+cpu
 transformers
-torch
-torchvision
 Pillow
 numpy
